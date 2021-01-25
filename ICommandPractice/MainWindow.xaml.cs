@@ -23,6 +23,8 @@ namespace ICommandPractice
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = new ViewModel();
         }
     }
 }
